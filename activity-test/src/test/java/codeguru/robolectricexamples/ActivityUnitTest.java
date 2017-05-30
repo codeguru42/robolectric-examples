@@ -8,8 +8,7 @@ import org.robolectric.Robolectric;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
 
-import static org.hamcrest.core.IsNull.notNullValue;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertNotNull;
 
 @RunWith(RobolectricTestRunner.class)
 @Config(constants = BuildConfig.class)
@@ -17,6 +16,6 @@ public class ActivityUnitTest {
     @Test
     public void testActivity() {
         Activity activity = Robolectric.setupActivity(MainActivity.class);
-        assertThat(activity, notNullValue());
+        assertNotNull(activity);
     }
 }
