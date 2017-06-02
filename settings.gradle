@@ -1,1 +1,1 @@
-include ':activity-test'
+include ':activity-test', ':fragment-test'
