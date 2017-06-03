@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Fragment Test</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="hello">Hello, Android!</string>
 </resources>
